@@ -12,7 +12,7 @@ print("Welcome to the Quiz world")
 print()
 input("Enter your name : ")
 print()
-print("You will be Getting 3 Questions, Answer them with Yes or NO")
+print("You will be Getting 4 Questions, Answer them with Yes or NO")
 print()
 answer1=input("1.Is the Earth the largest planet on the Solar System? ").lower()
 if answer1 == "no":
@@ -35,6 +35,16 @@ else:
 
 print()
 answer3=input("3.Sri lanka is a Island? ").lower()
+if answer3 == "yes":
+    print("correct")
+    correct =correct+1
+    print("Your Score : ",correct )
+else:
+    print("Incorrect answer")
+    print("Your Score :",correct )
+
+print()
+answer4=input("4.Is the Largest Ocean in the world is Pasific").lower()
 if answer3 == "yes":
     print("correct")
     correct =correct+1
